@@ -189,20 +189,41 @@
   /* Responsive */
   @media (max-width: 600px) {
     header h1 {
-      font-size: 2.8rem;
+      font-size: 2.5rem; /* Reduced font size */
     }
+    
     header p {
-      font-size: 1.1rem;
+      font-size: 1rem; /* Reduced font size */
     }
+    
+    main {
+      padding: 2rem 1rem; /* Adjusted padding */
+    }
+    
     section {
-      padding: 1.5rem 1.8rem;
-      margin-bottom: 2.5rem;
+      padding: 1.5rem 1rem; /* Adjusted padding */
+      margin-bottom: 2rem; /* Reduced margin */
     }
+    
+    .skills-grid {
+      grid-template-columns: 1fr; /* Stack skills vertically */
+    }
+    
     .skill-card {
-      padding: 1.2rem;
+      padding: 1rem; /* Adjusted padding */
     }
+    
     .project-item {
-      padding: 1.2rem 1.5rem 2rem;
+      padding: 1rem; /* Adjusted padding */
+    }
+    
+    .contact-info {
+      font-size: 1rem; /* Adjusted font size */
+    }
+    
+    .project-img {
+      width: 100%; /* Ensure images are responsive */
+      height: auto; /* Maintain aspect ratio */
     }
   }
 </style>
